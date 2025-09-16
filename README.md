@@ -5,7 +5,7 @@ It supports creating, reading, updating & deleting tasks (CRUD).
 
 
 ## Project Structure
-
+```
 taskmanager/
 │
 ├── app/
@@ -23,6 +23,7 @@ taskmanager/
 ├── migrations/             # (Optional) Flask-Migrate files
 ├── README.md
 └── run.py                 # App entry point
+```
 
 ## Features
 
@@ -55,4 +56,7 @@ Then open your browser: http://127.0.0.1:5000
 | PUT    | `/api/tasks/<id>` | Update task       | `{ "content": "Buy fruits", "is_done": true }`  |
 | DELETE | `/api/tasks/<id>` | Delete task       | –                                               |
 
+## Sample Web Design
+![](https://github.com/jibin94/flask-task-manager/blob/main/Screenshot1.png)
+![](https://github.com/jibin94/flask-task-manager/blob/main/Screenshot2.png)
 
