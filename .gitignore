@@ -1,0 +1,30 @@
+# Python cache & compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# IDE / Editor settings
+.vscode/
+.idea/
+*.swp
+
+# Database & migrations
+instance/
+*.sqlite
+*.db
+migrations/
+
+# Logs
+*.log
+
+# Environment variables
+.env
+*.env
+
+# macOS system files
+.DS_Store
